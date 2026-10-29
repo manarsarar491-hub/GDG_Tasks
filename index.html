@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        h1{
+            text-align: center;
+            color: cadetblue;
+        }
+        h2{
+            color: cadetblue;
+        }
+        a{
+            color: rgb(72, 72, 228);
+        }
+        button{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>John Deo Portfolio</h1>
+    <p style="text-align: center ; color: cadetblue;">Professional Web Develper</p>
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quo maiores earum eos aliquam consequuntur, eveniet ad molestias assumenda quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, consequatur exercitationem! Aperiam, ipsa dolore! Nihil, rem vitae pariatur, voluptates delectus nostrum sed atque sapiente temporibus inventore ex! Reiciendis, odit quidem.</p>
+    <h3 style="background-color: cadetblue;">Skills</h3>
+    <ul>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">React.js</a></li>
+        <li><a href="#">ANgular</a></li>
+    </ul>
+    <h2>Experience Timeline</h2>
+    <table border="1" cellspacing="0" cellpadding="10" width="100%">
+        <caption>Professional Experience Overview</caption>
+        <thead>
+            <tr>
+                <th style="color: aliceblue; background-color: rgb(78, 78, 182);">Company</th>
+                <th style="color: aliceblue; background-color: rgb(78, 78, 182);">Logo</th>
+                <th style="color: aliceblue; background-color: rgb(78, 78, 182);">Role</th>
+                <th style="color: aliceblue; background-color: rgb(78, 78, 182);">Key Achievements</th>
+                <th style="color: aliceblue; background-color: rgb(78, 78, 182);">Dates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" style="text-align: center;">TechCrop Sol</td>
+                <td rowspan="2" style="text-align: center;"><img src="imgs/logo1.png" alt="fullstacke-image" width="130px" ></td>
+                <td style="text-align: center;">Senior Full Stack</td>
+                <td><ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet. </li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul></td>
+                <td style="text-align: center;">Jan2023- pre</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Full Stack developer</td>
+                 <td><ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet. </li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul></td>
+                <td style="text-align: center;">2021-2023</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Digital Agency Pro</td>
+                <td style="text-align: center;"><img src="imgs/logo2.svg" alt="frontend-image" width="130px"></td>
+                <td style="text-align: center;">Frontend Developer</td>
+                <td><ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet. </li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul></td>
+                <td style="text-align: center;">2021-2023</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Web Design Studio</td>
+                <td style="text-align: center;"><img src="imgs/logo3.png" alt="junior-image" width="130px"></td>
+                <td style="text-align: center;">Junior web developer</td>
+                <td><ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul></td>
+                <td style="text-align: center;">2021-2023</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total Exp : 5+ year in web developer</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2>Contact Me</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quia.</p>
+    <form>
+         <fieldset>
+        <legend>Personal Info</legend>
+            <label for="f-name">First Name :* </label>
+            <input type="text" name="First-Name" id="f-name"><br> <br>
+            <label for="l-name">Last Name :* </label>
+            <input type="text" name="Last-Name" id="l-name"><br><br>
+            <label for="email">Email Address :*</label>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="phone">Phone :</label>
+            <input type="text" name="phone" id="phone"><br><br>
+            <label for="date">Prefered Time meeting : </label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="time">Best time to Contact : </label>
+            <input type="time" name="time" id="time">
+        </fieldset>
+        <fieldset>
+            <legend>Project Details</legend>
+            <label for="project-type">Project Type : </label>
+            <input type="text" name="Pro-type" id="project-type"><br><br>
+            <label for="desc">Project Desc : </label>
+            <input type="text" name="Desc" id="desc"><br><br>
+            <label for="">Budget Range : </label><br><br>
+            <input type="radio" name="Budget" value="Under$5000" id="a">
+            <label for="a">Under$5000</label><br>
+            <input type="radio" name="Budget" value="$5000-$10000" id="b">
+            <label for="b">$5000-$10000</label><br>
+            <input type="radio" name="Budget" value="$10000-$15000" id="c">
+            <label for="c">$10000-$15000</label><br>
+            <input type="radio" name="Budget" value="over$25000" id="d">
+            <label for="d">over$25000</label><br><br>
+
+            <label for="">Services Req : </label><br><br>
+            <input type="checkbox" name="Services" value="UI/UX" id="ui">
+            <label for="ui">UI/UX</label><br>
+            <input type="checkbox" name="Services" value="front" id="front">
+            <label for="front">front</label><br>
+            <input type="checkbox" name="Services" value="Back" id="back">
+            <label for="Back">Back</label><br>
+            <input type="checkbox" name="Services" value="Hoisting" id="hoisting">
+            <label for="hoisting">Hoiating</label><br>
+            <input type="checkbox" name="Services" value="Support" id="Support">
+            <label for="Support">Support</label><br>
+
+            <label>How Did you hear about me ? </label><br>
+            <select name="hear about me" >
+                <option selected disabled>--Select Source--</option>
+                <option value="Facebook">Facebook</option>
+                <option value=" My friends">My friend</option>
+                <option value="instagrame">instagrame</option>
+                <option value="other">other</option>
+
+            </select>
+        </fieldset>
+        <button type="submit" style="background-color: turquoise; color: aliceblue;">Send Meassage</button>
+        <button type="reset" style="background-color: brown; color: aliceblue;">clear</button>
+    </form>
+    
+   
+</body>
+</html>
